@@ -23,7 +23,7 @@ pd.read_csv?
 
 
 ```python
-oo = pd.read_csv(r'A:\Python\Pandas essential\Ex_Files_Pandas_EssT\ExerciseFiles\data\olympics.csv', skiprows=4)
+oo = pd.read_csv(r'...\data\olympics.csv', skiprows=4)
 
 # skiprows ignore the first couple of rows on Excel that do not have any info for our table
 # if your data set is not in the first sheet of your csv file, you can use sheet_name = 'your-sheet_name' to import the right worksheet
@@ -651,7 +651,7 @@ lo
 
 
 ```python
-noc = pd.read_csv(r'A:\Python\Pandas essential\Ex_Files_Pandas_EssT\ExerciseFiles\data\Summer Olympic medallists 1896 to 2008 - IOC COUNTRY CODES.csv')
+noc = pd.read_csv(r'...\data\Summer Olympic medallists 1896 to 2008 - IOC COUNTRY CODES.csv')
 noc.head()
 ```
 
